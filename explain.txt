@@ -1,0 +1,6 @@
+이미지 처리
+Image Processing
+
+컬러, 이미지 크기, 대칭, 특정영역, 블러, 윤곽
+
+OpenCV 이용
