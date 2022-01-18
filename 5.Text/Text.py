@@ -1,15 +1,15 @@
 # 텍스트
 # OpenCV에서 사용하는 글꼴 종류
 
-# cv2.FONT_HERSHEY_SIMPLEX  # 보통 크기의 산 세리프(sans-serif) 글꼴
-# cv2.FONT_HERSHEY_PLAIN  # 작은 크기의 산 세리프 글꼴
-# cv2.FONT_HERSHEY_SCRIPT_SIMPLEX  # 필기체 스타일 글꼴
-# cv2.FONT_HERSHEY_TRIPLEX  # 보통 크기의 산 세리프 글꼴
-# cv2.FONT_ITALIC  # 기울임(이탤릭체)
-
-from PIL import ImageFont, ImageDraw, Image
-import numpy as np
 import cv2
+import numpy as np
+from PIL import ImageFont, ImageDraw, Image
+cv2.FONT_HERSHEY_SIMPLEX  # 보통 크기의 산 세리프(sans-serif) 글꼴
+cv2.FONT_HERSHEY_PLAIN  # 작은 크기의 산 세리프 글꼴
+cv2.FONT_HERSHEY_SCRIPT_SIMPLEX  # 필기체 스타일 글꼴
+cv2.FONT_HERSHEY_TRIPLEX  # 보통 크기의 산 세리프 글꼴
+cv2.FONT_ITALIC  # 기울임(이탤릭체)
+
 
 img = np.zeros((480, 640, 3), dtype=np.uint8)
 
