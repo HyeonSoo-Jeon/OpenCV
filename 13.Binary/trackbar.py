@@ -1,19 +1,11 @@
-from tkinter.tix import Tree
 import cv2
 
 
 def empty(pos):
-    print(pos)
+    pass
 
 
 img = cv2.imread('./13.Binary/book.jpg', cv2.IMREAD_GRAYSCALE)
-
-# ret, binary = cv2.threshold(img, 127, 255, cv2.THRESH_BINARY)
-
-# cv2.imshow('img', img)
-# cv2.imshow('bin', binary)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
 
 
 # Trackbar : 값 변화에 따른 변형 확인
